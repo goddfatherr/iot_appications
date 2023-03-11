@@ -4,7 +4,7 @@ This repository contains a collection of IoT applications developed using variou
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
+- [Getting Started]
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
