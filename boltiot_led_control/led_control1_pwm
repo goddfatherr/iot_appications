@@ -1,0 +1,17 @@
+from boltiot import Bolt
+api_key = "451760fb-c462-4b96-b0c2-34e08392543d"
+device_id  = "BOLT15316359"
+mybolt = Bolt(api_key, device_id)
+
+def delay1():
+   for i in range(1,50000):
+
+while(1):
+   for i in range(0,255):
+      mybolt.analogWrite('0',i)
+      delay()
+
+   for i in range(0,255):
+      mybolt.analogWrite('0',255 - i)
+      delay()
+
